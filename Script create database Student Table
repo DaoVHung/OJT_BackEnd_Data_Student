@@ -1,0 +1,8 @@
+Create database Student_database;
+use Student_database;
+CREATE TABLE student (
+    studentID int PRIMARY KEY auto_increment,
+    studentName NVARCHAR(225),
+    age int,
+    studentStatus bit
+)
